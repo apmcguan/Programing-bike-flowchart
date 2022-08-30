@@ -4,10 +4,7 @@ using namespace std;
 
 int main() {
   // initialize variables
-  double P;
-  double l;
-  double S;
-  double r;
+  double P, l, S, r;
   double l_in;
   const double pi =3.14159;
   
@@ -27,7 +24,6 @@ int main() {
   cout<< "converting in. to mm. for length=" <<l/25.4<<endl;
     // calculate R
   r=cbrt((l*P)/pi*S);
-  cout
     
 
     //Display r
